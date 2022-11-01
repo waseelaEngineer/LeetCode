@@ -12,12 +12,12 @@
 public class AddTwoNumbers {
 
 	public static void main(String[] args) {
-		ListNode a = new ListNode(2, new ListNode(4, new ListNode(3)));		
-		ListNode b = new ListNode(5, new ListNode(6, new ListNode(4)));
+		ListNode a = new ListNode(2, new ListNode(4, new ListNode(3)));    //[2, 4, 3]
+		ListNode b = new ListNode(5, new ListNode(6, new ListNode(4)));    //[5, 6, 4] 
 		ListNode result = addTwoNumbers(a, b);
 		
 		while (result != null) {
-			System.out.print(result.val);
+			System.out.print(result.val);    //[708]
 			result = result.next;
 		}	
 	}
