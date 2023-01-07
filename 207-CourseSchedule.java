@@ -12,7 +12,7 @@ public class solution {
         ArrayList<Integer>[] graph = new ArrayList[numCourses];
         int[] degree = new int[numCourses];
         Queue<Integer> queue = new LinkedList<>();
-        int count=0; //  2
+        int count=0;
         
         for(int i=0;i<numCourses;i++)
             graph[i] = new ArrayList<>();
