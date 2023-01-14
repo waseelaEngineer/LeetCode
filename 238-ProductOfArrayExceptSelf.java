@@ -1,3 +1,5 @@
+// Time: O(n)
+// Space: O(1)
 public class solution {
 
 	public static void main(String[] args) {
