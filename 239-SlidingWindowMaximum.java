@@ -1,6 +1,5 @@
 // Time: O(n)
 // Space: O(1)
-
 import java.util.LinkedList;
 
 public class solution {
